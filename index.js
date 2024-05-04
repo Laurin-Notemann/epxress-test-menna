@@ -5,7 +5,7 @@ const app = express();
 console.log("testtest one ");
 
 app.get("/", (req, res) => {
-  res.send("<p>THIS worlddddddd is driving me craaaaazy weeeeee</p>");
+  res.send("<p>THIS is driving me craaaaazy weeeeee</p>");
 });
 
 app.listen(3000, () => {
